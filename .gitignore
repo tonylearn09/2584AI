@@ -1,0 +1,6 @@
+*.dat
+*.zip
+*.out
+train_game
+ai_client
+ai_stdio
