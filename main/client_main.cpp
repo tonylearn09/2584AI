@@ -38,8 +38,8 @@ int main(int argc, char* argv[])
 	bzero(&dest, sizeof(dest));
 	dest.sin_family = PF_INET;
 	dest.sin_port = htons(21684);
-	//dest.sin_addr.s_addr = inet_addr("140.113.167.52");
-	dest.sin_addr.s_addr = inet_addr("140.113.194.120");
+	dest.sin_addr.s_addr = inet_addr("140.113.167.52");
+	//dest.sin_addr.s_addr = inet_addr("140.113.194.120");
 
 	/* Connecting to server */
 	int status = connect(sockfd, (struct sockaddr*)&dest, sizeof(dest));
