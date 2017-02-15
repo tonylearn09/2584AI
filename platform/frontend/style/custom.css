@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    min-width: 978px;
+}
+
+.mid-container {
+    margin-top: 5vh;
+    max-width: 500px;
+}
+
+.sidebar {
+    margin-top: 5vh;
+    flex: 1;
+    height: 90vh;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.sidebar-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text: center;
+    color: #776e65;
+    font-size: 60px;
+    font-weight: bold;
+    height: 10vh;
+}
+
+.right {
+    text-align: right
+}
+
+.refresh-ai-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+}
+
+ul.ai-list{
+    padding: 0px;
+    height: 80vh;
+    overflow: scroll;
+}
+ul.ai-list>li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px;
+    margin-top: 6px;
+    height: 48px;
+    background-color: #8f7a66;
+    padding: 6px;
+    font-size: 18px;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #f9f6f2;
+}
+ul.ai-list>li:hover {
+    cursor: pointer
+}
+
+.show{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.show>span{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+}
+.show>div{
+    flex: 1;
+    background-color: #bbada0;
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 48px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #bbada0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+}
+.button{
+    background-color: #8f7a66;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
