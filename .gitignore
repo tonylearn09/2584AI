@@ -1,6 +1,8 @@
 *.dat
 *.zip
 *.out
+*.pyc
 train_game
 ai_client
 ai_stdio
+

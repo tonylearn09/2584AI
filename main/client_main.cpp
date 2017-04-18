@@ -37,10 +37,11 @@ int main(int argc, char* argv[])
 	/* initialize value in dest */
 	bzero(&dest, sizeof(dest));
 	dest.sin_family = PF_INET;
-	dest.sin_port = htons(21684);
+	//dest.sin_port = htons(21684);
+	dest.sin_port = htons(12346);
 	//dest.sin_addr.s_addr = inet_addr("140.113.167.52");
 	//dest.sin_addr.s_addr = inet_addr("140.113.194.120");
-	dest.sin_addr.s_addr = inet_addr("127.0.0.1");
+	dest.sin_addr.s_addr = inet_addr("140.113.67.94");
 
 	/* Connecting to server */
 	int status = connect(sockfd, (struct sockaddr*)&dest, sizeof(dest));
