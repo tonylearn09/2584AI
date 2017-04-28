@@ -1,4 +1,4 @@
-all: client stdio
+all: client stdio train
 
 client:
 	g++ -O3 -std=c++11 *.cpp main/client_main.cpp Fib2584/*.cpp -o ai_client
